@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnreachableCode": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "module": "es2015",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "jsx": "preserve"
+  },
+  "files": [
+    "./typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true,
+    "useCache": true,
+    "useBabel": true
+  }
+}
